@@ -1,5 +1,5 @@
 const pgp = require('pg-promise')(/*options*/)
-const db = pgp('postgres://postgres:password@localhost:5432/project_c')
+const db = pgp('postgres://amarkisoensingh:gpbc6jy7foc0dvsm@private-demo-db-do-user-2807363-0.a.db.ondigitalocean.com:25060/project_c')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
