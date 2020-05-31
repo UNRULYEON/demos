@@ -66,7 +66,7 @@ const link = ApolloLink.from([
     if (networkError) console.log(`[Network error]: ${networkError}`);
   }),
   new createHttpLink({
-    uri: 'http://project-c.demo.amar.sh/api/graphql',
+    uri: 'http://api.project-c.demo.amar.sh/graphql',
   })
 ])
 
