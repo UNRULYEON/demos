@@ -1,0 +1,166 @@
+
+/* first step page */
+#showRegister{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#emailWachtwoordForm{
+  align-items: flex-start;
+  max-width: 415px;
+  margin: 0px 75px 0px 120px;
+}
+
+#Waarom {
+  flex: 1;
+  max-width: 415px;
+}
+
+#lijn{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid rgb(231, 231, 231);
+  flex: 1;
+  max-width: 1px;
+  height: 350px;
+  background-color: rgb(231, 231, 231);
+  margin: 15px 15px 15px 15px;
+}
+
+/* second step page */
+#showNaamAdres{
+  display: flex;
+  justify-content: center;
+}
+
+#naam{
+  display:flex;
+  flex-direction: column;
+  
+}
+
+#adres{
+  display:flex;
+  flex-direction: column;
+}
+
+#adresHeader{
+  margin-bottom: 37px;
+}
+
+/* last step page */
+#showBetaalInfo{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 34px 0px;
+}
+
+#showOverzicht{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 34px 0px;
+  max-width:300px;
+}
+
+#orderTextFieldNaam{
+  margin: 10px 15px 10px 0px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#orderTextFieldAdres{
+  margin: 10px 15px 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* done with steps */
+#getStepsDone{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0px 34px 0px;
+}
+
+/* Buttons */
+#button{
+  width:150px;
+}
+
+#buttonsBackNext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+
+
+
+/* screen max width 648px */
+@media screen and (max-width: 648px){
+  /* first step page */
+  #showRegister{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #emailWachtwoordForm{
+    margin: 10px 10px 10px 10px;
+  }
+
+  #Waarom {
+    margin: 10px 10px 10px 10px;
+  }
+
+  #lijn{
+    border: 1px solid rgb(231, 231, 231);
+    height: 1px;
+    max-width:350px;
+    width: 350px;
+    margin: 15px 15px 15px 15px;
+  }
+
+  /* second step page */
+  #showNaamAdres{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #naam{
+    width:100%;
+    margin: 10px 10px 10px 10px;
+    
+  }
+
+  #adres{
+    width:100%;
+    margin: 10px 10px 10px 10px;
+  }
+
+  #button{
+    width: 100%;
+  }
+
+  #buttonsBackNext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+}
+

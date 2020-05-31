@@ -1,0 +1,17 @@
+h1{
+  font-size: 2.5em;
+}
+
+h2{
+  font-size: 1.5em;
+  margin-top: -40px;
+  color: grey;
+}
+
+.page-title{
+  text-align: center;
+}
+
+.page-title-center{
+  text-align: center;
+}

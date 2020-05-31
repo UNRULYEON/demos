@@ -1,0 +1,26 @@
+.list-acc-painting-container{
+  margin-bottom: 10px;
+  border: 1px solid #EEEEEE;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.list-acc-total{
+  text-align: right;
+}
+
+.draggable-status-container{
+  margin-left: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.draggable-rent-container{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
