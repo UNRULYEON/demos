@@ -2,6 +2,7 @@
   "name": "admin",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://project-c.demo.amar.sh/",
   "dependencies": {
     "@devexpress/dx-react-core": "^1.9.1",
     "@devexpress/dx-react-grid": "^1.9.1",

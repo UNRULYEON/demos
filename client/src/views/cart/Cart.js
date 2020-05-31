@@ -24,10 +24,6 @@ import nlLocale from 'date-fns/locale/nl';
 // Components
 import PageTitle from '../../components/pageLink/PageLink'
 
-// Luxon
-import DateTime from 'luxon/src/datetime.js'
-import LuxonUtils from '@date-io/luxon';
-
 // Material-UI theme for button
 const theme = new createMuiTheme({
 	palette: {

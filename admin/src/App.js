@@ -56,7 +56,7 @@ const link = ApolloLink.from([
     if (networkError) console.log(`[Network error]: ${networkError}`);
   }),
   new createHttpLink({
-    uri: 'http://api.project-c.demo.amar.sh/graphql',
+    uri: '/graphql',
   })
 ])
 
@@ -449,7 +449,7 @@ class App extends Component {
   render() {
     return (
       <ApolloProvider client={client}>
-        <Router>
+        <Router basename="/admin">
           <div className="App">
             <Header
               handleSnackbarOpen={this.handleSnackbarOpen}
