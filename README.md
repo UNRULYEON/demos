@@ -37,9 +37,9 @@ Screenshots of the webshop can be found [here](https://github.com/UNRULYEON/INFP
 
 ## Links
 
-Website: [http://project-c.demo.amar.sh](http://project-c.demo.amar.sh)
-Admin: [http://project-c.demo.amar.sh/admin](http://project-c.demo.amar.sh/admin)
-GraphQL endpoint: [http://project-c.demo.amar.sh/graphql](http://project-c.demo.amar.sh/grahpql)
+- Website: [http://project-c.demo.amar.sh](http://project-c.demo.amar.sh)
+- Admin: [http://project-c.demo.amar.sh/admin](http://project-c.demo.amar.sh/admin)
+- GraphQL endpoint: [http://project-c.demo.amar.sh/graphql](http://project-c.demo.amar.sh/grahpql)
 
 ## Getting Started
 
