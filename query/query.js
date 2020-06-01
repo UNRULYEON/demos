@@ -1,8 +1,39 @@
 const pgp = require('pg-promise')(/*options*/)
-const db = pgp('postgres://amarkisoensingh:gpbc6jy7foc0dvsm@private-demo-db-do-user-2807363-0.a.db.ondigitalocean.com:25060/project_c')
+
+// const dbConfig = {
+//   host: 'private-demo-db-do-user-2807363-0.a.db.ondigitalocean.com',
+//   port: 25060,
+//   database: 'project_c',
+//   user: 'amarkisoensingh',
+//   password: 'gpbc6jy7foc0dvsm',
+//   max: 30, // use up to 30 connections
+//   query_timeout: 30000,
+//   ssl: true
+// }
+
+// const db = pgp(dbConfig)
+
+// const db = pgp('postgresql://amarkisoensingh:gpbc6jy7foc0dvsm@private-demo-db-do-user-2807363-0.a.db.ondigitalocean.com:25060/project_c?sslmode=require')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
+const dbConfig = {
+  connectionString: 'postgresql://project_c:szdgRUGd65@db.demo.amar.sh:5432/project_c',
+  // connectionString: 'postgresql://postgres:password@localhost:5432/project_c',
+}
+
+const db = pgp(dbConfig)
+
+db.connect()
+  .then(obj => {
+    console.log('Connection success')
+    console.log(obj)
+
+    obj.done(); // success, release the connection;
+  })
+  .catch(error => {
+    console.log('ERROR:', error.message || error);
+  });
 
 var root = {
   status: () => {
