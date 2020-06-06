@@ -22,7 +22,7 @@
   "homepage": "https://github.com/UNRULYEON/INFPRJ01C#readme",
   "dependencies": {
     "apollo-boost": "^0.1.16",
-    "apollo-server": "^2.1.0",
+    "apollo-server": "^2.14.2",
     "bcrypt": "^3.0.6",
     "bluebird": "^3.5.2",
     "body-parser": "^1.18.3",
